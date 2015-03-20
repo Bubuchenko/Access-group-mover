@@ -1,0 +1,20 @@
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\bin\Debug\AD browser.exe.config
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\bin\Debug\AD browser.exe
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\bin\Debug\AD browser.pdb
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\obj\Debug\AD browser.csprojResolveAssemblyReference.cache
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\obj\Debug\AD_browser.Properties.Resources.resources
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\obj\Debug\AD browser.csproj.GenerateResource.Cache
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\obj\Debug\AD browser.exe
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\obj\Debug\AD browser.pdb
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\obj\Debug\AD_browser.Form1.resources
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\bin\Debug\MWTreeView.dll
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\bin\Debug\MWTreeView.pdb
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\bin\Debug\Newtonsoft.Json.dll
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\bin\Debug\System.Net.Http.Formatting.dll
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\bin\Debug\System.Web.Http.dll
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\bin\Debug\Microsoft.TeamFoundation.WorkItemTracking.Client.DataStoreLoader.dll
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\bin\Debug\System.Net.Http.Formatting.xml
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\bin\Debug\System.Web.Http.xml
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\bin\Debug\Microsoft.WITDataStore.dll
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\bin\Debug\CookComputing.XmlRpcV2.dll
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\obj\Debug\AD_browser.loginForm.resources

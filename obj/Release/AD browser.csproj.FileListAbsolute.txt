@@ -1,0 +1,19 @@
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\bin\Release\MWTreeView.dll
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\bin\Release\Newtonsoft.Json.dll
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\bin\Release\System.Net.Http.Formatting.dll
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\bin\Release\System.Web.Http.dll
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\bin\Release\Microsoft.TeamFoundation.WorkItemTracking.Client.DataStoreLoader.dll
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\bin\Release\MWTreeView.pdb
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\bin\Release\System.Net.Http.Formatting.xml
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\bin\Release\System.Web.Http.xml
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\bin\Release\Microsoft.WITDataStore.dll
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\obj\Release\AD_browser.Form1.resources
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\obj\Release\AD_browser.Properties.Resources.resources
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\obj\Release\AD browser.csproj.GenerateResource.Cache
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\obj\Release\AD_browser.loginForm.resources
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\obj\Release\AD browser.csprojResolveAssemblyReference.cache
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\bin\Release\Co-Manage.exe.config
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\bin\Release\Co-Manage.exe
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\bin\Release\Co-Manage.pdb
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\obj\Release\Co-Manage.exe
+G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\obj\Release\Co-Manage.pdb
