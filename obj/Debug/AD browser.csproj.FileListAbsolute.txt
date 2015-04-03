@@ -18,3 +18,21 @@ G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\bin\Debug\System.Web.Http.xm
 G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\bin\Debug\Microsoft.WITDataStore.dll
 G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\bin\Debug\CookComputing.XmlRpcV2.dll
 G:\Users\Alyssa\Documents\FlipMemoryTest\AD browser\obj\Debug\AD_browser.loginForm.resources
+C:\Users\l.pijlman.MCO\Desktop\Access-group-mover\bin\Debug\Co-Manage.exe.config
+C:\Users\l.pijlman.MCO\Desktop\Access-group-mover\bin\Debug\Co-Manage.exe
+C:\Users\l.pijlman.MCO\Desktop\Access-group-mover\bin\Debug\Co-Manage.pdb
+C:\Users\l.pijlman.MCO\Desktop\Access-group-mover\bin\Debug\Newtonsoft.Json.dll
+C:\Users\l.pijlman.MCO\Desktop\Access-group-mover\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\l.pijlman.MCO\Desktop\Access-group-mover\bin\Debug\System.Web.Http.dll
+C:\Users\l.pijlman.MCO\Desktop\Access-group-mover\bin\Debug\Microsoft.TeamFoundation.WorkItemTracking.Client.DataStoreLoader.dll
+C:\Users\l.pijlman.MCO\Desktop\Access-group-mover\bin\Debug\MWTreeView.pdb
+C:\Users\l.pijlman.MCO\Desktop\Access-group-mover\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\l.pijlman.MCO\Desktop\Access-group-mover\bin\Debug\System.Web.Http.xml
+C:\Users\l.pijlman.MCO\Desktop\Access-group-mover\bin\Debug\Microsoft.WITDataStore.dll
+C:\Users\l.pijlman.MCO\Desktop\Access-group-mover\obj\Debug\AD browser.csprojResolveAssemblyReference.cache
+C:\Users\l.pijlman.MCO\Desktop\Access-group-mover\obj\Debug\AD_browser.Form1.resources
+C:\Users\l.pijlman.MCO\Desktop\Access-group-mover\obj\Debug\AD_browser.loginForm.resources
+C:\Users\l.pijlman.MCO\Desktop\Access-group-mover\obj\Debug\AD_browser.Properties.Resources.resources
+C:\Users\l.pijlman.MCO\Desktop\Access-group-mover\obj\Debug\AD browser.csproj.GenerateResource.Cache
+C:\Users\l.pijlman.MCO\Desktop\Access-group-mover\obj\Debug\Co-Manage.exe
+C:\Users\l.pijlman.MCO\Desktop\Access-group-mover\obj\Debug\Co-Manage.pdb

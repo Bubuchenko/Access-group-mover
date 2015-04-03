@@ -30,11 +30,11 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(loginForm));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.usernameField = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.passwordField = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.usernameField = new System.Windows.Forms.TextBox();
+            this.loginBtn = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -44,7 +44,7 @@
             this.groupBox1.Controls.Add(this.passwordField);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.usernameField);
-            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.loginBtn);
             this.groupBox1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(9, 5);
             this.groupBox1.Name = "groupBox1";
@@ -52,33 +52,6 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Login";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(106, 85);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(107, 27);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Login";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // usernameField
-            // 
-            this.usernameField.Location = new System.Drawing.Point(85, 27);
-            this.usernameField.Name = "usernameField";
-            this.usernameField.Size = new System.Drawing.Size(155, 23);
-            this.usernameField.TabIndex = 1;
-            this.usernameField.Text = "l.pijlman";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(17, 30);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(62, 15);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Username";
             // 
             // label2
             // 
@@ -95,8 +68,34 @@
             this.passwordField.Name = "passwordField";
             this.passwordField.Size = new System.Drawing.Size(155, 23);
             this.passwordField.TabIndex = 2;
-            this.passwordField.Text = "lol12lol";
             this.passwordField.UseSystemPasswordChar = true;
+            this.passwordField.KeyDown += new System.Windows.Forms.KeyEventHandler(this.passwordField_KeyDown);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(17, 30);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(62, 15);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Username";
+            // 
+            // usernameField
+            // 
+            this.usernameField.Location = new System.Drawing.Point(85, 27);
+            this.usernameField.Name = "usernameField";
+            this.usernameField.Size = new System.Drawing.Size(155, 23);
+            this.usernameField.TabIndex = 1;
+            // 
+            // loginBtn
+            // 
+            this.loginBtn.Location = new System.Drawing.Point(106, 85);
+            this.loginBtn.Name = "loginBtn";
+            this.loginBtn.Size = new System.Drawing.Size(107, 27);
+            this.loginBtn.TabIndex = 3;
+            this.loginBtn.Text = "Login";
+            this.loginBtn.UseVisualStyleBackColor = true;
+            this.loginBtn.Click += new System.EventHandler(this.button1_Click);
             // 
             // loginForm
             // 
@@ -120,7 +119,7 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button loginBtn;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox passwordField;
         private System.Windows.Forms.Label label1;

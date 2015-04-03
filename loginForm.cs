@@ -25,7 +25,13 @@ namespace AD_browser
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if(credentialsValid(usernameField.Text, passwordField.Text))
+            PerformLogin();
+        }
+
+        private void PerformLogin()
+        {
+            loginBtn.Enabled = false;
+            if (credentialsValid(usernameField.Text, passwordField.Text))
             {
                 form.Show();
                 this.Hide();
@@ -33,6 +39,7 @@ namespace AD_browser
             else
             {
                 MessageBox.Show("Invalid username or password", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                loginBtn.Enabled = true;
             }
         }
 
@@ -55,6 +62,14 @@ namespace AD_browser
 
         private void loginForm_Load(object sender, EventArgs e)
         {
+        }
+
+        private void passwordField_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode == Keys.Enter)
+            {
+                PerformLogin();
+            }
         }
     }
 

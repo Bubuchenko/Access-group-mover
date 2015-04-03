@@ -125,7 +125,11 @@ namespace AD_browser
                     {
                         if (m.OU == node.Text)
                         {
-                            node.Nodes.Add(string.Format("{0} : [{1}]", m.Name, AccessGroups[m.AccessGroup].ToString()));
+                            try
+                            {
+                                node.Nodes.Add(string.Format("{0} : [{1}]", m.Name, AccessGroups[m.AccessGroup].ToString()));
+                            }
+                            catch { }
                         }
                     }
                 });
@@ -189,16 +193,16 @@ namespace AD_browser
                 string machineName = result[i]["hostname"].ToString();
                 string accessGroup = result[i]["accessgroup"].ToString();
 
+                //Sanitize the name
+                if (machineName.Contains("mco.local"))
+                    machineName = machineName.Replace(".mco.local", "");
+
                 Machine machine = MachineList.Where(f => f.Name == machineName).FirstOrDefault();
 
                 if (machine == null)
                     continue;
 
-                //Sanitize the name
-                if (machineName.Contains("mco.local"))
-                    machineName = machineName.Replace(".mco.local", "");
-
-                machine.AccessGroup = accessGroup;
+                    machine.AccessGroup = accessGroup;
                 machine.ID = ID;
             }
 
@@ -316,7 +320,7 @@ namespace AD_browser
                 action.Add("args", filter);
 
                 filter.Add("id", machinelist[i].ID);
-                filter.Add("accessgroup", AccessGroups.Keys.OfType<string>().FirstOrDefault(f => AccessGroups[f] == accessgroup));
+                filter.Add("accessgroup", AccessGroups.Keys.OfType<string>().FirstOrDefault(f =>  (string)AccessGroups[f] == accessgroup));
 
                 actions[i] = action;
             }
